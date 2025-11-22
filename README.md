@@ -11,50 +11,50 @@ Built as a **database-driven project**, it showcases relational schema design, S
 
 ## 🧭 Table of Contents
 
-- [✨ Core Features](#-core-features)
-  - [👤 Customer](#-customer)
-  - [💼 Seller](#-seller)
-  - [👑 Admin](#-admin)
-- [🧠 Architecture Overview](#-architecture-overview)
-- [📁 Project Structure](#-project-structure)
-- [🚀 How to Run](#-how-to-run)
-- [🧩 Roles Summary](#-roles-summary)
-- [📸 Preview (Optional)](#-preview-optional)
+- [Core Features](#-core-features)
+  - [Customer](#-customer)
+  - [Seller](#-seller)
+  - [Admin](#-admin)
+- [Architecture Overview](#-architecture-overview)
+- [Project Structure](#-project-structure)
+- [How to Run](#-how-to-run)
+- [Roles Summary](#-roles-summary)
+- [Preview (Optional)](#-preview-optional)
 
 ---
 
-## ✨ Core Features
+## Core Features
 
-### 👤 Customer
-- 🔐 Register & log in securely  
-- 🧭 Browse shoes by category (e.g. Sneakers, Boots, etc.)  
-- 💰 Compare sellers sorted by **cheapest price first**  
-- 🛒 Add, edit, and remove items from a persistent shopping cart  
-- 💳 Complete checkout with full shipping details  
-- 📦 Track and view detailed **order history**  
-- 🚪 Logout button conveniently placed at the **top-right corner**
-
----
-
-### 💼 Seller
-- 🧾 Manage your own inventory listings  
-- ➕ Add new listings for existing catalog products  
-- ✏️ Update stock or price instantly  
-- ❌ Remove listings when out of stock  
-- 📊 View a summary of all your current listings  
+### Customer
+- Register & log in securely  
+- Browse shoes by category (e.g. Sneakers, Boots, etc.)  
+- Compare sellers sorted by **cheapest price first**  
+- Add, edit, and remove items from a persistent shopping cart  
+- Complete checkout with full shipping details  
+- Track and view detailed **order history**  
+- Logout button conveniently placed at the **top-right corner**
 
 ---
 
-### 👑 Admin
-- 🧍 View all registered users, products, and orders  
-- ➕ Add **new products** to the master catalog  
-- 👥 Add or remove **users** (customers or sellers)  
-- 📦 Monitor orders and system-wide activity  
-- 🛠️ Maintain complete marketplace control  
+### Seller
+- Manage your own inventory listings  
+- Add new listings for existing catalog products  
+- Update stock or price instantly  
+- Remove listings when out of stock  
+- View a summary of all your current listings  
 
 ---
 
-## 🧠 Architecture Overview
+### Admin
+- View all registered users, products, and orders  
+- Add **new products** to the master catalog  
+- Add or remove **users** (customers or sellers)  
+- Monitor orders and system-wide activity  
+- Maintain complete marketplace control  
+
+---
+
+## Architecture Overview
 
 | Layer | Technology | Description |
 |-------|-------------|-------------|
@@ -65,7 +65,7 @@ Built as a **database-driven project**, it showcases relational schema design, S
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 HYPECULTURE-main/
